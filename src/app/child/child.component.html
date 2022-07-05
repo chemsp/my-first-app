@@ -1,0 +1,19 @@
+<div style="border: 2px solid green; height:400px; margin: 20px;">
+    <h3>Child Component</h3>
+
+    {{mess}}
+{{'Counter in Child    : '   + counterInChlid }}
+
+
+
+<br>
+<br>
+
+<input type="text" [(ngModel)]="mess" >
+
+<button (click)="increment()" >Increment Counter in Child</button> &nbsp;
+<button (click)="decrement()" >Decrement Counter in Child</button>
+<button type="button" >Simple button</button>
+<ng-content></ng-content>
+
+</div>

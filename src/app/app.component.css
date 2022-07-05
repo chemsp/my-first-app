@@ -1,0 +1,14 @@
+.myoddClass { background-color: aquamarine;
+ color: brown;
+}
+
+.evenClass { background-color: blue;
+    color: yellow;
+   }
+
+
+.myClass { color: blue; text-decoration: underline;}
+
+.myClass1 { color: yellow; text-decoration: underline;}
+
+.myClass2 { color: green; text-decoration: underline;}
